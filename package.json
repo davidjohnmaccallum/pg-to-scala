@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "pg-to-scala": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +16,7 @@
     "pg": "^8.5.1"
   },
   "devDependencies": {
+    "dotenv": "^8.2.0",
     "eslint": "^7.13.0"
   }
 }
